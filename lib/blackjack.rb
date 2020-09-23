@@ -59,7 +59,7 @@ def runner
       break
     end
   end
-  end_game
+  end_game(total)
   # code runner here
 end
     
