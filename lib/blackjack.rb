@@ -39,10 +39,11 @@ def hit?(total)
   if choice == 'h' then
     new_card = deal_card()
     total += new_card
+    prompt_user
   elsif not(choice == 's') then
     invalid_command
+    prompt_user
   end
-  prompt_user
   total
 end
 #####################################################
