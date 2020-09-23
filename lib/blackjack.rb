@@ -52,7 +52,7 @@ end
 
 def runner
   welcome
-  total initial_round
+  total = initial_round
   prompt_user
   while true do
     total = hit?(total)
