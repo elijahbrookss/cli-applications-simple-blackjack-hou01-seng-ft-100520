@@ -54,7 +54,12 @@ def runner
   welcome
   initial_round
   prompt_user
-  
+  while true do
+    total = hit?
+    if total > 21 then
+      break
+    end
+  end
   # code runner here
 end
     
