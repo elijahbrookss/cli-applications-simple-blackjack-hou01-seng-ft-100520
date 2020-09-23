@@ -59,6 +59,7 @@ def runner
       break
     end
   end
+  end_game
   # code runner here
 end
     
