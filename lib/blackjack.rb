@@ -54,7 +54,6 @@ def runner
   total = initial_round;
   while true do
     total = hit?(total)
-    p "You have #{total} cards"
     if total > 21 then
       break
     end
